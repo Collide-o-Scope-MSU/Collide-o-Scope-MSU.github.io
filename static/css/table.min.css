@@ -48,9 +48,9 @@
 
 .gallery {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 35.25%;
     /* 16:9 */
-    padding-top: 25px;
+    padding-top: 15px;
     height: 0;
 }
 

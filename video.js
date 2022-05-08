@@ -2,8 +2,8 @@ window.addEventListener("DOMContentLoaded", () => {
     // (A) PLAYER INIT
     // (A1) PLAYLIST - CHANGE TO YOUR OWN!
     let playlist = [
-        { name: "Pitch_Deck_Final_Recording_Collide-O-Scope", src: "./files/Pitch_Deck_Final_Recording_Collide-O-Scope.mp4" },
-        { name: "WRECKS Test Montage_Bonk", src: "./files/WRECKS Test Montage_Bonk.mov" },
+        { name: "Pitch Deck Collide-O-Scope", src: "./files/Pitch_Deck_Final_Recording_Collide-O-Scope.mp4" },
+        { name: "WRECKS Test Video at Atwood Fence Site", src: "./files/WRECKS Test Montage_Bonk.mov" },
         { name: "Latency Test", src: "./files/Latency Test.mp4" }
     ];
 

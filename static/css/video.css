@@ -13,6 +13,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;    
     max-width: 600px;
     background: #158f76;
     border: 5px #046350 solid;
@@ -41,7 +43,7 @@
 
 #vCron {
     font-size: 14px;
-    color: #cbcbcb;
+    color: #fff;
     margin: 0 10px;
 }
 
@@ -70,12 +72,12 @@
 /* (F2) CUSTOM SLIDER TRACK */
 
 #vWrap input[type=range]::-webkit-slider-runnable-track {
-    background: #626262;
+    background: #046350;
     border-radius: 10px;
 }
 
 #vWrap input[type=range]::-moz-range-track {
-    background: #626262;
+    background: #046350;
     border-radius: 10px;
 }
 
@@ -124,7 +126,8 @@
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    color: #011a15;
+    color: #158f76;
+    
     background: #fff;
 }
 
@@ -135,4 +138,11 @@
 
 .vRow.now {
     color: #158f76;
+    font-weight: bold;
+}
+.vRow.now::before {
+    content: '▶ ';
+}
+.vRow::before {
+    content: '⏭ ';
 }
